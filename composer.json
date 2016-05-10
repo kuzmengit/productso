@@ -1,0 +1,46 @@
+{
+    "name": "kuzmengit/productso",
+    "type": "library",
+    "description": "my product package",
+    "keywords": [
+        "kuzmengit",
+        "productso"
+    ],
+    "homepage": "https://github.com/kuzmengit/productso",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "oleg",
+            "email": "krater2@ex.ua",
+            "homepage": "none",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : "~5.5|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "kuzmengit\\productso\\": "src",
+            "kuzmengit\\productso\\Http\\Controllers\\": "src/Http/Controllers/"        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "kuzmengit\\productso\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
