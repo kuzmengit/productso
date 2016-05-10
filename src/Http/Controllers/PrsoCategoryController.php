@@ -1,6 +1,6 @@
 <?php
  
-namespace kuzmengit\productso\Controllers;
+namespace kuzmengit\productso\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use kuzmengit\productso\Models\PrsoCategory as Category;

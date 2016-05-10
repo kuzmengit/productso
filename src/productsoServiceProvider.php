@@ -13,7 +13,7 @@ class productsoServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        require __DIR__ . '/Http/routes.php';
     }
 
     /**
